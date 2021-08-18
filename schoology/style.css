@@ -1,0 +1,237 @@
+:root {
+  --dark-bg: #36393F; /*Main - Background*/
+  --dark-sec: #36393F; /*Brighter - Comments*/
+  --dark-con: #2F3136; /*Darker - Content*/
+  --dark-bright: #40444B; /*Bright - List*/
+  --dark-em: #202225; /*Emphatic - Nav*/
+  --dark-text: #ddd; /*Text*/
+  --dark-alt: #6fa8dc; /*Alternate - Blue*/
+  --dark-alt-sec: #3b89d1; /*Alternate - Darker*/
+}
+body {
+  background: var(--dark-bg) !important;
+  color: var(--dark-text) !important;
+}
+.util-justify-content-space-between-3euFK {
+  background: var(--dark-em) !important;
+}
+#collection-title {
+  background-color: var(--dark-bg);
+}
+#collection-view-contents td {
+  background-color: var(--dark-bg);
+}
+.collection-title-wrapper {
+  color: var(--dark-bg)
+}
+.discussion-view p {
+  color: inherit;
+}
+.discussion-view .discussion-content #s_comments .discussion-card {
+  background: none;
+}
+.les2- {
+  border-color: var(--dark-alt-sec)
+}
+._2T2dA, .dVlNp { /*Footer*/
+  background-color: var(--dark-em) !important;
+}
+.link-btn {
+  background: white;
+
+  border: none;
+}
+.s-like-sentence {
+  color: var(--dark-text)
+}
+body ul.primary {
+  background: none;
+}
+#course-profile-materials {
+  background: none;
+}
+#youtube-disclaimer {
+  background: none;
+}
+textarea {
+  background: none;
+  border: none !important;
+  border-radius: 0px !important;
+  border-top: 1px solid var(--dark-alt) !important;
+  border-bottom: 1px solid var(--dark-alt) !important;
+  color: var(--dark-text) !important;
+}
+textarea:focus {
+  outline: none;
+  border: none !important;
+  border-radius: 0px !important;
+  /* border-top: 1px solid var(--dark-alt) !important; */
+  border-bottom: 1px solid var(--dark-alt) !important;
+}
+.has-folder-player #center-top .content-top-upper, .has-materials-player #center-top .content-top-upper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border:none;
+  background: none;
+}
+.enrollment-view-wrapper {
+  background: none;
+}
+._24W2g {
+  background: var(--dark-sec);
+}
+.Header-header-button-1EE8Y {
+  background: var(--dark-em) !important;
+  color: white !important;
+}
+.album-comments {
+  background: none;
+  border: none;
+}
+._2SVA_ {
+  background-image: url(https://www.helloworldmods.tk/schoology/sgslogo.png) !important;
+  background-size: 160px 35px;
+    background-repeat: no-repeat;
+}
+#home-feed-container {
+  background: var(--dark-con) !important;
+  border-radius: 10px;
+  color: var(--dark-text) !important;
+}
+.overdue-submissions, .upcoming-events {
+  background: var(--dark-con) !important;
+  border-radius: 10px;
+  color: var(--dark-text) !important;
+}
+.s-edge-type-update-post .update-body, .s-edge-type-update-poll .update-body {
+  color: var(--dark-text) !important;
+}
+.feed-comments {
+  background: var(--dark-sec) !important;
+  border-radius: 10px;
+  color: var(--dark-text) !important;
+}
+._8a6xl {
+  background: var(--dark-bg) !important;
+}
+.feed-comments textarea, body input[type=text], body input[type=textbox], body input[type=password], body input[type=time]{
+  border: none;
+  border-bottom: 1px solid var(--dark-alt);
+  background: none;
+  color: var(--dark-text) !important;
+}
+.feed-comments textarea:focus, body input[type=text]:focus, body input[type=textbox]:focus, body input[type=password]:focus, body input[type=time]:focus {
+    outline: none;
+}
+span.fitb-highlight, .matching-answers .form-text:focus, .matching-highlight .matching-answer, .sticky-header th {
+  background: var(--dark-text) !important;
+  color: var(--dark-em) !important;
+}
+.question-true_false .selected span.option-span, .multiple-choice-review .selected span.option-span, .ordering-review .selected span.option-span {
+    background: var(--dark-text);
+    color: var(--dark-em);
+}
+body a, body .clickable, body .smart-box .filter-block li a, body #content-left-top .item-list li a, body .popups-tab, body .enrollment-filters span, body .grading-groups-list .grading-group, body #grading-group-create:hover, body .s-edge-feed .edge-footer .ajax-post-comment, body .smart-box .filter-block li .smartbox-boxtab, body .smart-box .filter-block li .personal-blog a{
+  color: var(--dark-alt) !important;
+}
+.h3-med, .review-answers h4{
+  color: var(--dark-text) !important;
+}
+.theme-2016 .date-header h4 {
+  color: var(--dark-text)c;
+}
+.sgy-tabbed-navigation li.active {
+  border-bottom: 5px solid var(--dark-text)
+}
+.Header-header-drop-menu-3SaYV {
+  background: var(--dark-bright) !important;
+  color: var(--dark-alt) !important;
+}
+.Header-header-button-active-GnvKh {
+  background: var(--dark-bright) !important;
+  color: var(--dark-text) !important;
+}
+.Header-header-button-1EE8Y:hover {
+  background: var(--dark-sec) !important;
+  color: var(--dark-text) !important;
+  transition-duration: 0.5s;
+}
+._1SIMq {
+   background: var(--dark-em) !important;
+}
+.S42JQ {
+  background: var(--dark-sec) !important;
+}
+#center-inner {
+  background: var(--dark-bg) !important;
+}
+CjR09 _8a6xl _1tpub util-justify-content-space-between-3euFK { /*Courses Title */
+background: var(--dark-sec)
+}
+._2K08O {
+  color: var(--dark-text)
+}
+#main-content-wrapper, #main, #center-top {
+  background: var(--dark-con) !important;
+  border: none;
+  border-radius: 10px
+}
+.materials-filter-wrapper, #edge-filters-btn {
+   position: absolute;
+    right: 50px;
+    bottom: -12px;
+    background: var(--dark-bg);
+    z-index: 2;
+}
+#sidebar-left .active-trail a, #left-nav #menu-s-main .menu .menu a.active, #sidebar-left .menu .expanded.active-trail a.active, #sidebar-left #left-nav .menu .expanded.active-trail .active-trail-dist-1 a, #sidebar-left #left-nav .menu .expanded.active-trail .menu .active-trail-dist-2 a {
+  margin: 0px !important;
+  background-color: var(--dark-con);
+  font-weight: bold;
+  border: 1px solid var(--dark-text);
+  border-radius: 10px;
+}
+#left-nav #menu-s-main .menu .menu a, #sidebar-left .menu .expanded.active-trail a :hover {
+    background-color: var(--dark-sec);
+    transition-duration: 0.5s;
+}
+._1Z0RM {
+  background: var(--dark-con);
+  color: var(--dark-text);
+}
+._2UdSL { /*courses boxes*/
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+ }
+._1wP6w, ._2wOCj {
+   color: var(--dark-text)
+}
+.question-points {
+  color: var(--dark-text)
+}
+#assessment-progress-bar {
+  border: 1px solid var(--dark-alt-sec);
+}
+#assessment-progress-bar div {
+  background: var(--dark-alt-sec);
+  border-right: 1px solid var(--dark-alt-sec);
+}
+body .question-matching .col-3, body .matching-review .col-3, body .question-fitb .answer .selected{
+  color: var(--dark-alt-sec);
+}
+.popups-body-inner-has-buttons {
+  color: var(--dark-em);
+}
+.selected .correct {
+  background: none !important;
+  color: var(--dark-p-bg) !important;
+}
+.not-editable .score-grade-score span {
+  color: var(--dark-p-bg);
+}
+._3U8Br {
+  color: var(--dark-text)
+}
+.has-materials-player #center-top .content-top-upper {
+  background: var(--dark-sec)
+}

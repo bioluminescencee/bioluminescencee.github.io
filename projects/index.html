@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Helloworld Mod Host</title>
+	<link rel="icon" href="../favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js">
+
+	</script>
+</head>
+
+<body>
+	<div id="navbar">
+		<a href="../home">Home</a>
+		<a class="active" href="#">My Projects</a>
+    <a href="#">Socials</a>
+	</div>
+
+	<div class="content">
+		<div class="main">
+			<section>
+				<div class="twocolumn">
+					<div class="column" style="padding-top: 70px;text-align: center;">
+						<h1>My Projects</h1>
+					</div>
+					<div class="column" style="text-align: center;"><img src="../favicon.png" alt=""style="border-radius: 50%;text-align: center;" width="200px"></div>
+        </div>
+      </section>
+      <section style="margin-top: 350px; text-align: center;" class="info">
+        <h3>This is a list of some of my projects</h3>
+      </section>
+      <section class="info">
+        <div class="twocolumn">
+          <div class="column">
+            <h3>Random Project</h3>
+            <p>The project description</p>
+          </div>
+          <div class="column" style="text-align: right;"><img src="../home/jsdevimg.png" alt="" class="infoimg"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="footer">
+    <p class="footertext">Helloworld ©2021</p>
+  </div>
+<script>
+  let navbar = document.getElementById("navbar");
+  let sticky = navbar.offsetTop + 1;
+  window.onscroll = () => window.pageYOffset > sticky ? navbar.classList.add("sticky") : navbar.classList.remove("sticky")
+</script>
+</body>
+
+
+
+</script>
+
+</html>
