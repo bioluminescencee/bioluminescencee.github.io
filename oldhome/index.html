@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Helloworld</title>
+	<link rel="icon" href="../favicon.png" type="image/x-icon" />
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js">
+
+	</script>
+</head>
+
+<body>
+	<div id="navbar">
+		<a class="active" href="#">Home</a>
+		<a href="../projects">My Projects</a>
+    <a href="#">Socials</a>
+	</div>
+
+	<div class="content">
+		<div class="main">
+			<section>
+				<div class="twocolumn">
+					<div class="column" style="padding-top: 70px;text-align: center;">
+						<h1>Helloworld</h1>
+					</div>
+					<div class="column" style="text-align: center;"><img src="../favicon.png" alt=""style="border-radius: 50%;text-align: center;" width="200px"></div>
+        </div>
+      </section>
+      <section style="margin-top: 350px; text-align: center;" class="info">
+        <h3>Hi there! I'm Helloworld</h3>
+      </section>
+      <section class="info">
+        <div class="twocolumn">
+          <div class="column">
+            <h3>I'm a JavaScript Developer</h3>
+            <p>I create random things for fun</p>
+          </div>
+          <div class="column" style="text-align: right;"><img src="jsdevimg.png" alt="" class="infoimg"></div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="twocolumn">
+          <div class="column"><img src="web.jpg" alt="" class="infoimg"></div>
+          <div class="column" style="text-align: right;">
+            <h3>I'm a Web Developer</h3>
+            <p>I sometimes feel like making websites</p>
+          </div>
+        </div>
+
+      </section>
+      <section class="info">
+        <div class="twocolumn">
+          <div class="column">
+            <h3>I'm a <del>Hacker</del> Modder</h3>
+            <p>I like to modify games and stuff to make the better</p>
+          </div>
+          <div class="column" style="text-align: right;"><img src="modding.png" alt="" class="infoimg"></div>
+        </div>
+      </section>
+      <section class="info">
+        <div class="twocolumn">
+          <div class="column"><img src="shellplayer.png" alt="" class="infoimg"></div>
+          <div class="column" style="text-align: right;">
+            <h3>I play Shell Shockers</h3>
+            <p>Although I'm really not that good</p>
+          </div>
+        </div>
+      </section>
+      <section class="info" style="text-align: center; padding-bottom: 100px">
+        <h3>Check out my projects!</h3>
+        <br>
+        <br>
+        <a href="../projects"class="infobutton">View Projects</a>
+      </section>
+    </div>
+  </div>
+  <a href="https://www.youtube.com/channel/UC1sRqAoKOrQv8l4MVqH9PYw" class="socials" style="bottom: 150px;" target="_blank"><img src="youtube.png"> Youtube</a>
+  <a href="#" class="socials" style="bottom: 100px;" target="_blank"><img src="discordblue.png"> Discord</a>
+  <a href="https://github.com/JyT1" class="socials" style="bottom: 50px;" target="_blank"><img src="github.png"> Github</a>
+  <div class="footer">
+    <p class="footertext">Helloworld ©2021</p>
+  </div>
+<script>
+  let navbar = document.getElementById("navbar");
+  let sticky = navbar.offsetTop + 1;
+  window.onscroll = () => window.pageYOffset > sticky ? navbar.classList.add("sticky") : navbar.classList.remove("sticky")
+</script>
+</body>
+
+
+
+</script>
+
+</html>
