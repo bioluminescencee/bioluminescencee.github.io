@@ -14,7 +14,7 @@ VANTA.WAVES({
   color: 0x0e001e,
   waveHeight: 30.00,
   waveSpeed: 0.45,
-  zoom: 0.65
+  zoom: 0.7
 });
 let blocking = false;
 document.addEventListener("wheel", e => {
