@@ -102,7 +102,9 @@ h3 {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  column-gap: 20px;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .social-card {
@@ -134,6 +136,8 @@ h3 {
 
 .social-card .social-icon {
   font-size: 72px;
+  width: 72px;
+  margin-bottom: 2px;
 }
 
 .btn {
@@ -185,10 +189,10 @@ h3 {
 .main-header {
   font-size: 5em;
 }
+
 @media screen and (max-width: 600px) {
   h1 {
-    /* font-size: 112px; */
-    font-size: 4em;
+    font-size: 3em;
   }
   
   h2 {
@@ -200,13 +204,44 @@ h3 {
     font-size: 32px;
   }
   .main-header {
-    font-size: 3.5em;
+    font-size: 2.8em;
+  }
+  .header-description {
+    font-size: 20px;
   }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 320px) {
   #socials {
     flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
   }
-}  
+  .social-card {
+    height: 150px;
+    width: 150px;
+    font-size: 20px;
+    margin: 5px;
+  }
+  
+  .social-card:hover {
+    height: 160px;
+    width: 160px;
+  }
+  
+  .social-card .social-icon {
+    font-size: 48px;
+    width: 48px;
+    margin-bottom: 1px;
+  }
+  .btn {
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 270px) {
+  h1 {
+    font-size: 2em;
+  }
+  .main-header {
+    font-size: 1.8em;
+  }
+}
