@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vertex/icon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/vertex//icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vertex</title>
     <meta name="author" content="helloworld-1839">
-  <script type="module" crossorigin src="/vertex/assets/index-CP09_29f.js"></script>
-  <link rel="stylesheet" crossorigin href="/vertex/assets/index-BFGMPnj3.css">
+  <script type="module" crossorigin src="/vertex/assets/index-CL4c33FF.js"></script>
+  <link rel="stylesheet" crossorigin href="/vertex/assets/index-BQ-5m7VK.css">
 </head>
 
 <body>
@@ -18,9 +18,19 @@
         <canvas id="cursor"></canvas>
         <canvas id="points"></canvas>
         <canvas id="uicanvas"></canvas>
+        <div class="info">
+            <span id="constructor"></span>
+            <span id="theme"></span>
+            <span id="date"></span>
+        </div>
+        <button type="button" id="undo">Undo</button>
+        <div id="zoom">
+            <button type="button">+</button>
+            <button type="button">-</button>
+        </div>
         <div id="overlay">
             <div class="container">
-                <p>Choose a puzzle</p>
+                <span>Vertex Archive</span>
                 <select name="puzzle" id="select">
                     <option value="">Choose a puzzle</option>
                     <hr>
